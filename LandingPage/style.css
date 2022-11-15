@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-width: 490px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.logo {
+    font-size: 32px;
+}
+
+.clipboard {
+    width: 280px;
+    height: 150px;
+    border-radius: 6px;
+    align-self: center;
+}
+
+.message {
+    width: 300px;
+    text-align: center;
+}
+
+
+
+.box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+}
+
+.card{
+    max-width: 200px;
+    text-align: center;
+}
+
+.information{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.header, .footer, .welcome {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 70px;
+}
+
+.quotes{
+    padding: 20px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quotes h3{
+    align-self: flex-end;
+}
+
+.quotes p{
+    font-style: italic;
+    font-weight: 50;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.signup{
+    padding: 5px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupcard{
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: white;
+    padding: 8px;
+    display:flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 10px;
+}
+
+.signupcard strong{
+    font-size: 15px;
+}
+
+.button{
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: white;
+    border: 2px solid white;
+    padding: 8px;
+}
+
+
+
+
